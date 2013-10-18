@@ -145,8 +145,6 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
 			container.addView(view);
 
-			view.setBackgroundColor(0xFFFF0000);
-
 			// keep reference to your views here
 			//
 
