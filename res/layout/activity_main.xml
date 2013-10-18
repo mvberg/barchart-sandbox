@@ -3,16 +3,10 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <com.barchart.tester.pager.PagerContainer
-        android:id="@+id/pager_container"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#000" >
-
-        <com.barchart.tester.pager.InfiniteViewPager
-            android:layout_width="160dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal" />
-    </com.barchart.tester.pager.PagerContainer>
+    <ExpandableListView
+        android:id="@+id/symbol_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+    </ExpandableListView>
 
 </RelativeLayout>
